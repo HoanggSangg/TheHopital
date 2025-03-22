@@ -1,0 +1,29 @@
+
+#footer {
+    padding: 112px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+#footer .footer-section {
+    font-size: 25px;
+}
+
+#footer .footer-section a {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .footer-info a:hover,
+#footer .footer-section a:hover {
+    opacity: 0.5;
+}
+
+#footer .footer-info {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+#footer .footer-info a {
+    margin-left: 5px;
+}

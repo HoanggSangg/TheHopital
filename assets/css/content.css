@@ -1,0 +1,167 @@
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px;
+    /* Fix Ui iPad */
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#content .section-heading {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#content .section-sub-heading {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 15px;
+    /* Chữ nghiêng và mờ đi 0.6 */
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text {
+    text-align: justify;
+    font-size: 15px;
+    /* Khoảng cách của hai dòng chữ */
+    line-height: 1.4;
+}
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+#content .tour-section {
+    background-color: rgb(2, 170, 149);
+}
+
+#content .tickets-list {
+    background-color: #fff;
+    margin-top: 35px;
+    list-style-type: none;
+}
+
+#content .tickets-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#content .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 15px;
+}
+
+#content .quantity {
+    background-color: #000;
+    color: #fff;
+    float: right;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-top: -4px;
+}
+
+#content .places-list {
+    margin-top: 32px;
+}
+
+#content .place-content {
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+#content .place-name {
+    font-size: 15px;
+}
+
+#content .place-img {
+    width: 100%;
+    display: block;
+}
+
+#content .place-img:hover {
+    opacity: 0.6;
+}
+
+#content .place-time {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+#content .place-button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#content .place-button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#content .contact-about {
+    margin-top: 48px;
+}
+
+#content .contact-info {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#content .contact-info i {
+    width: 30px;
+    display: inline-block;
+}
+
+#content .contact-form {
+    font-size: 15px;
+}
+
+#content .contact-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 3px 0;
+}
+
+#content .contact-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    float: right;
+    margin: 15px 0;
+}
+
+#content .contact-button:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#content .map-section img {
+    width: 100%;
+}
+

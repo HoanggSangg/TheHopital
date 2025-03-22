@@ -1,0 +1,28 @@
+
+#slider {
+    margin-top: 46px;
+    padding-top: 40%;
+    background: url('../../assets/img/BANNER-YCT-DIAGNOSTIC.png') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    left: 50%;
+    /* Lùi lại 50% */
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#slider .text-heading {
+    /* Nét chữ 500 */
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 25px;
+}

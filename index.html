@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="./assets/img/logo1.png">
+    <title>The Band - Demo</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="/">Trang chủ</a></li>
+                <li><a href="#band">Giới Thiệu</a></li>
+                <li><a href="#tour">Đăng ký</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+                <li>
+                    <a href="#">More <i class="nav-show-icons ti-arrow-circle-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="#Merchandise">Merchandise</a></li>
+                        <li><a href="#Extras">Extras</a></li>
+                        <li><a href="#Media">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-search">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+            <div id="mobile-menu" class="nav-menu">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <!-- <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <p class="text-description">Thank you, Chicago - A night we won't forget.</p>
+            </div> -->
+        </div>
+
+        <div id="content">
+            <div id="band" class="content-section">
+                <h2 class="section-heading">YCT DIAGNOSTIC</h2>
+                <p class="section-sub-heading">PHÒNG XÉT NGHIỆM YCT DIAGNOSTIC</p>
+                <p class="about-text">
+                    Tọa lạc tại trung tâm thành phố Cần Thơ, YCT Diagnostic là phòng xét nghiệm tiên phong trong việc
+                    cung cấp các dịch vụ xét nghiệm y tế chất lượng cao, với hệ thống trang thiết bị hiện đại hàng đầu
+                    và đội ngũ chuyên gia giàu kinh nghiệm. Chúng tôi cam kết mang đến kết quả nhanh chóng, chính xác,
+                    phục vụ mọi nhu cầu từ kiểm tra sức khỏe tổng quát đến xét nghiệm chuyên sâu như sàng lọc di truyền,
+                    phát hiện ung thư, và các bệnh lây nhiễm. Hãy để chúng tôi đồng hành vì sức khỏe của bạn - tận tâm,
+                    chuyên nghiệp, và đáng tin cậy. Liên hệ ngay hôm nay để được tư vấn!
+                </p>
+                <div class="row members-list">
+                    <div class="col col-third text-center col-mobile">
+                        <p class="member-name">Đội ngũ chuyên gia hàng đầu</p>
+                        <img src="./assets/img/d4.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="col col-third text-center col-mobile">
+                        <p class="member-name">Công nghệ hiện đại</p>
+                        <img src="./assets/img/d2.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="col col-third text-center col-mobile">
+                        <p class="member-name">Dịch vụ đa dạng</p>
+                        <img src="./assets/img/d3.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="text-white section-heading">TƯ VẤN XÉT NGHIỆM</h2>
+                    <p class="text-white section-sub-heading">PHÒNG XÉT NGHIỆM YCT DIAGNOSTIC</p>
+                    <!-- <ul class="tickets-list">
+                        <li>September<span class="sold-out">Sold out</span></li>
+                        <li>October<span class="sold-out">Sold out</span></li>
+                        <li>November<span class="quantity">3</span></li>
+                    </ul> -->
+                    <div class="row places-list">
+                        <div class="col col-third col-mobile">
+                            <img src="./assets/img/d5.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">Huyết học</h3>
+                                <p class="place-time">60 phút</p>
+                                <p class="place-about">Nhóm máu Rh(D)</p>
+                                <button class="place-button js-pay-ticket form-mobile">Đăng ký</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third col-mobile">
+                            <img src="./assets/img/d5.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">Huyết học</h3>
+                                <p class="place-time">60 phút</p>
+                                <p class="place-about">Nhóm máu ABO</p>
+                                <button class="place-button js-pay-ticket form-mobile">Đăng ký</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third col-mobile">
+                            <img src="./assets/img/d6.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">Huyết học</h3>
+                                <p class="place-time">60 phút</p>
+                                <p class="place-about">Nhóm máu ABO + Rh(D)</p>
+                                <button class="place-button js-pay-ticket form-mobile">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">Liên Hệ</h2>
+                <p class="section-sub-heading">PHÒNG XÉT NGHIỆM YCT DIAGNOSTIC</p>
+
+                <div class="row contact-about">
+                    <div class="col col-half contact-info col-mobile">
+                        <p><i class="ti-location-pin"></i>Địa chỉ: B48-B51 đường B31,KDC 91B, Phường An Khánh, Ninh Kiều, Cần Thơ</p>
+                        <p><i class="ti-headphone"></i>Điện thoại:02923 699 115</p>
+                        <p><i class="ti-layout-placeholder"></i>Email:lab.yctcare@gmail.com</p>
+                    </div>
+                    <div class="col col-half contact-form col-mobile">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half form-mobile">
+                                    <input type="text" class="contact-input" placeholder="Name..." required>
+                                </div>
+                                <div class="col col-half form-mobile">
+                                    <input type="email" class="contact-input" placeholder="Email..." required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-full">
+                                    <input type="text" class="contact-input" placeholder="Message..." required>
+                                </div>
+                            </div>
+                            <input type="submit" class="contact-button form-mobile" value="SEND"></input>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="Map">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer-section">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-instagram"></i></a>
+                <a href="#"><i class="ti-themify-favicon-alt"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+                <a href="#"><i class="ti-twitter-alt"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>Powered by<a href="">w3.css</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-x">
+                <i class="ti-close js-x-modal"></i>
+            </div>
+            <div class="modal-header">
+                <i class="ti-briefcase"></i>
+                ĐĂNG KÍ TƯ VẤN XÉT NGHIỆM
+            </div>
+            <div class="modal-body">
+                <label for="quatity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tên của anh/chị:
+                </label>
+                <input id="quatity" type="text" class="modal-input" placeholder="Name?">
+
+                <label for="email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Số điện thoại của anh/chị để pxn liên hệ:
+                </label>
+                <input id="email" type="email" class="modal-input" placeholder="Phone...">
+                <a href="#" class="modal-button-pay">Gửi <i class="ti-check"></i></a>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close js-close-modal">Đóng <i class="ti-close"></i></button>
+                <label class="label-footer">Need <a href="#">hepl?</a></label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //Script Modal
+        const buyBtns = document.querySelectorAll('.js-pay-ticket');
+        const closeBtn = document.querySelector('.js-close-modal');
+        const modalContainber = document.querySelector('.js-modal-container');
+        const xBtn = document.querySelector('.js-x-modal');
+        const modal = document.querySelector('.js-modal');
+
+        function showBuyTickets() {
+            modal.classList.add('open');
+        }
+
+        function closeBuyTickets() {
+            modal.classList.remove('open');
+        }
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets);
+        }
+
+        modal.addEventListener('click', closeBuyTickets);
+        closeBtn.addEventListener('click', closeBuyTickets);
+        xBtn.addEventListener('click', closeBuyTickets);
+
+        modalContainber.addEventListener('click', function (event) {
+            // Dừng việc nổi bọt của thao tác click tại container
+            // Tránh việc click vào trong Modal lại ẩn modal
+            event.stopPropagation();
+        })
+
+        //Script Menu Open/Closed
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        //Auto Closed Menu click nav
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu) {
+                    header.style.height = null;
+                } else {
+                    event.preventDefault();
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
